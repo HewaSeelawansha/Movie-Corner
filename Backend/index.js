@@ -8,7 +8,7 @@ app.use(express.json());
 const cors = require('cors');
 
 app.use(cors({
-  origin: ['http://localhost:5173'],
+  origin: ['https://movie-corner-frontend-sage.vercel.app'],
   credentials: true
 }));
 app.use(bodyParser.json());
