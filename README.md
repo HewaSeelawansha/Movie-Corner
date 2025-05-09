@@ -1,5 +1,7 @@
 Movie Corner - Full Stack Movie Application
 
+Note :- Need to uncomment the protected routes wrapped <App/> in development setup, since I had unwrapped protected routes since had issues when deploying the backend server.
+
 Overview
 
 Movie Corner is a full-stack web application that allows users to browse, search, and discover movies. The application features:
