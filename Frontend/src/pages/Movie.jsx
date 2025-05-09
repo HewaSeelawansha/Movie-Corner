@@ -188,7 +188,7 @@ const BrowseMovies = () => {
                     Hello! {user.name}
                   </label>
                 ) : (
-                  <Link to="/login" className="bg-white gap-1 text-sm font-semibold sm:ml-1 p-1 sm:px-6 px-2 flex items-center rounded-md">
+                  <Link to="/login" className={`${isDarkMode ? 'text-white' : 'text-gray-800'} gap-1 text-sm font-semibold sm:ml-1 p-1 sm:px-6 px-2 flex items-center rounded-md`}>
                     <HiOutlineUser/> 
                     Login
                   </Link>
