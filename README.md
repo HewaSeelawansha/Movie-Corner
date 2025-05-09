@@ -39,7 +39,6 @@ Modal for detailed movie views
 
 Project Setup
 
-----------------------------------
 Backend Setup
 
 Create a .env file in the backend root with the following variables:
@@ -57,7 +56,7 @@ npm install
 Start the backend server:
 
 npm start
-----------------------------------
+
 Frontend Setup
 
 Create a .env file in the backend root with the following variables:
@@ -73,7 +72,6 @@ npm install
 Start the development server:
 
 npm run dev
---------------------------------
 
 API Usage
 

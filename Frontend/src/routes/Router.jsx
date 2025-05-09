@@ -9,7 +9,8 @@ import Movie from "../pages/Movie";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <PrivateRoute><App/></PrivateRoute>,
+        // element: <PrivateRoute><App/></PrivateRoute>,
+        element: <App/>,
         children: [
             {
                 path: "",
