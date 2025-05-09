@@ -1,6 +1,8 @@
 Movie Corner - Full Stack Movie Application
 
-Note :- Need to uncomment the protected routes wrapped <App/> in development setup, since I had unwrapped protected routes since had issues when deploying the backend server.
+Developer Note :- In the development setup, make sure to uncomment the protected routes wrapped around <App />. These were temporarily unwrapped due to deployment issues with the backend server hosted on Vercel. The issue still occurs occasionally, although the backend sometimes works as expected.
+
+
 
 Overview
 
